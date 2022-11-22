@@ -104,7 +104,7 @@ bundle common update_def
       # "masterfiles" shortcut.
 
       "mpf_update_policy_master_location" -> { "ENT-3692" }
-        string => ifelse( "am_policy_hub", "/home/craig/cfe/play-policy/masterfiles",
+        string => ifelse( "am_policy_hub", "/var/cfengine/masterfiles",
                           "masterfiles");
 
       # Here we allow the masterfiles location to be overridden via augments. If
