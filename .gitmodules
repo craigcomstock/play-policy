@@ -1,0 +1,3 @@
+[submodule "play-mpf-submodule"]
+	path = play-mpf-submodule
+	url = git@github.com:craigcomstock/play-mpf-submodule.git
