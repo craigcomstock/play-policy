@@ -1,5 +1,5 @@
 {
   "augments": [
-    "/var/cfengine/inputs/play-mpf-submodule/def.json"
+    "play-mpf-submodule/def.json"
   ]
 }
